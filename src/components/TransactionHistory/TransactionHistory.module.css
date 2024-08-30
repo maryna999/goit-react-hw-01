@@ -1,0 +1,39 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin-top: 60px;
+}
+
+.table-title {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.table-body {
+  border: 1px solid black;
+}
+
+.table-line {
+  border-bottom: 1px solid black;
+}
+
+.table-item {
+  color: black;
+  padding: 10px;
+  border-right: 1px solid black;
+}
+
+.table-item:last-child {
+  border-right: none;
+}
+
+.table-body .table-line:nth-child(even) {
+  background-color: #a4a0a0ba;
+}
+
+.table-body .table-line:nth-child(odd) {
+  background-color: #fff;
+}
